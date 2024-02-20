@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contenedor{
+    border: solid;
+    width: 500px;
+    height: 500px;
+}
+.cajita{
+   
+   width: 200px;
+   height: 200px;
+
+}
+/* 
+.cajita--relativo{
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+
+
+} */
+
+.cajita--absoluto{
+    position: absolute;
+    
+}
+.cajita--azul{
+    background-color: blue;
+    z-index: 0;
+}
+.cajita--verde{
+    background-color: green;
+   z-index: 1;
+   top: 50px;
+   left: 50px;
+}
